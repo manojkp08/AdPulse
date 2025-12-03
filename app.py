@@ -285,6 +285,9 @@ def main():
                 col2.metric("Conversions", stats['Total Conversions'])
                 col3.metric("CPA", stats['Avg CPA'])
 
+                with st.expander("Read Executive Summary"): 
+                    st.write(summary)
+
                 pdf_bytes = create_pdf(stats, summary)
                 
                 st.download_button(

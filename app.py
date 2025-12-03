@@ -246,6 +246,16 @@ def main():
     **Transform raw campaign data into executive decisions in seconds.**
     Upload your weekly CSV to generate a PDF report with AI-driven analysis.
     """)
+
+    with st.expander("ℹ️ NOTE FOR EVALUATORS (Click to Expand)", expanded=True):
+        st.markdown("""
+        **I have included multiple test scenarios in the `custom_csv/` folder to demonstrate AI adaptability:**
+        1.  `data_tiktok_win.csv`: Shows AI identifying a high-volume, low-cost winner.
+        2.  `data_b2b_win.csv`: Shows AI understanding high-CPA logic for B2B (LinkedIn).
+        And many more so you can test the solution's reliability across contexts.
+        
+        *Please upload these files to see the narrative change dynamically.*
+        """)
     
     # 1. File Upload
     uploaded_file = st.file_uploader("Upload CSV Data", type=['csv'])

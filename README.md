@@ -1,4 +1,4 @@
-# H-001 | AdPulse: Automated Insight Engine
+AdPulse: Automated Insight Engine
 
 **Tagline:** An automated reporting pipeline that converts raw ad campaign logs into executive-ready PDF briefings with AI-generated narratives in under 30 seconds.
 
